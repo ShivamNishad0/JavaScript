@@ -20,6 +20,7 @@ console.log(accountCity);
 
 
 console.table([accountId, accountEmail, accountPassword, accountCity, accountState]);
+console.log(typeof accountId);
 
 /*
 

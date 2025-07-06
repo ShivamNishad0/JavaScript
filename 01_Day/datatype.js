@@ -20,4 +20,5 @@ Object => collection of key-value pairs;
 */
 
 console.log(name, age, isLoggedIn);
-console.log(typeof name); // string
+console.log(typeof name); 
+console.log(typeof age);
