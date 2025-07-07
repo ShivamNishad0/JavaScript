@@ -20,7 +20,7 @@ console.log(accountCity);
 
 
 console.table([accountId, accountEmail, accountPassword, accountCity, accountState]);
-console.log(typeof accountId);
+
 
 /*
 
@@ -36,4 +36,19 @@ Best practices:
 3. Avoid using var to prevent issues with variable hoisting and scope.
 
 */
+
+/*
+What is scope in JavaScript?
+Scope refers to where the variable and function are accessible in the code.
+Type od scope in JavaScript:
+1. Globle Scope: A variable declared outside any function or block is in a globle scope.
+Example:
+*/
+let name = "Shivam Nishad";
+function say(){
+console.log("Hello " + name);
+}
+say();
+
+
 
